@@ -1,0 +1,721 @@
+demarré
+Executing (default): SELECT TABLE_NAME, TABLE_SCHEMA FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = N'C_OPERATs' AND TABLE_SCHEMA = N'dbo'
+Executing (default): EXEC sys.sp_helpindex @objname = N'[C_OPERATs]';
+Executing (default): INSERT INTO [C_OPERATs] ([OPECODE],[createdAt],[updatedAt]) OUTPUT INSERTED.[OPECODE],INSERTED.[OPELIB],INSERTED.[OPEPASS],INSERTED.[createdAt],INSERTED.[updatedAt] VALUES (@0,@1,@2);
+demarré
+Executing (default): SELECT TABLE_NAME, TABLE_SCHEMA FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = N'C_OPERATs' AND TABLE_SCHEMA = N'dbo'
+Executing (default): EXEC sys.sp_helpindex @objname = N'[C_OPERATs]';
+Executing (default): INSERT INTO [C_OPERATs] ([OPECODE],[createdAt],[updatedAt]) OUTPUT INSERTED.[OPECODE],INSERTED.[OPELIB],INSERTED.[OPEPASS],INSERTED.[createdAt],INSERTED.[updatedAt] VALUES (@0,@1,@2);
+demarré
+Executing (default): SELECT TABLE_NAME, TABLE_SCHEMA FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = N'C_OPERATs' AND TABLE_SCHEMA = N'dbo'
+Executing (default): EXEC sys.sp_helpindex @objname = N'[C_OPERATs]';
+Executing (default): INSERT INTO [C_OPERATs] ([OPECODE],[createdAt],[updatedAt]) OUTPUT INSERTED.[OPECODE],INSERTED.[OPELIB],INSERTED.[OPEPASS],INSERTED.[createdAt],INSERTED.[updatedAt] VALUES (@0,@1,@2);
+demarré
+Executing (default): SELECT TABLE_NAME, TABLE_SCHEMA FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = N'C_OPERATs' AND TABLE_SCHEMA = N'dbo'
+Executing (default): EXEC sys.sp_helpindex @objname = N'[C_OPERATs]';
+Executing (default): INSERT INTO [C_OPERATs] ([OPECODE],[createdAt],[updatedAt]) OUTPUT INSERTED.[OPECODE],INSERTED.[OPELIB],INSERTED.[OPEPASS],INSERTED.[createdAt],INSERTED.[updatedAt] VALUES (@0,@1,@2);
+demarré
+Executing (default): SELECT TABLE_NAME, TABLE_SCHEMA FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = N'C_OPERATs' AND TABLE_SCHEMA = N'dbo'
+Executing (default): EXEC sys.sp_helpindex @objname = N'[C_OPERATs]';
+Executing (default): INSERT INTO [C_OPERATs] ([OPECODE],[createdAt],[updatedAt]) OUTPUT INSERTED.[OPECODE],INSERTED.[OPELIB],INSERTED.[OPEPASS],INSERTED.[createdAt],INSERTED.[updatedAt] VALUES (@0,@1,@2);
+demarré
+Executing (default): SELECT TABLE_NAME, TABLE_SCHEMA FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = N'C_OPERATs' AND TABLE_SCHEMA = N'dbo'
+Executing (default): EXEC sys.sp_helpindex @objname = N'[C_OPERATs]';
+Executing (default): INSERT INTO [C_OPERATs] ([OPECODE],[createdAt],[updatedAt]) OUTPUT INSERTED.[OPECODE],INSERTED.[OPELIB],INSERTED.[OPEPASS],INSERTED.[createdAt],INSERTED.[updatedAt] VALUES (@0,@1,@2);
+ajout
+demarré port 3055
+ajout
+demarré port 3055
+Executing (default): SELECT [username], [userlib], [password], [id], [createdAt], [updatedAt] FROM [Users] AS [User] WHERE [User].[username] = N'MLSA';
+[0mPOST /api/login [32m200[0m 240.796 ms - 402[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [32m200[0m 6.610 ms - 562[0m
+[0mGET /uploads/2023-03-01T152356_2_signature.jpeg [32m200[0m 4.828 ms - 7592[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ] WHERE [FAQ].[id] = N'139';
+Executing (default): DELETE FROM [FAQs] WHERE [id] = 139; SELECT @@ROWCOUNT AS AFFECTEDROWS;
+[0mDELETE /api/faqs/139 [32m200[0m 47.135 ms - 183[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [32m200[0m 3.455 ms - 414[0m
+fichier ajoute : undefined
+Executing (default): INSERT INTO [FAQs] ([question],[answer],[productId],[created]) OUTPUT INSERTED.[id],INSERTED.[question],INSERTED.[answer],INSERTED.[productId],INSERTED.[picture],INSERTED.[created] VALUES (@0,@1,@2,@3);
+[0mPOST /api/faq [32m200[0m 48.325 ms - 186[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [32m200[0m 3.271 ms - 568[0m
+fichier ajoute : [object Object]
+Executing (default): INSERT INTO [FAQs] ([question],[answer],[productId],[picture],[created]) OUTPUT INSERTED.[id],INSERTED.[question],INSERTED.[answer],INSERTED.[productId],INSERTED.[picture],INSERTED.[created] VALUES (@0,@1,@2,@3,@4);
+[0mPOST /api/faq [32m200[0m 68.452 ms - 231[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [32m200[0m 4.832 ms - 767[0m
+[0mGET /uploads/2023-03-02T081352_142_Consultation.jpg [32m200[0m 0.892 ms - 87671[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ] WHERE [FAQ].[id] = N'142';
+Executing (default): DELETE FROM [FAQs] WHERE [id] = 142; SELECT @@ROWCOUNT AS AFFECTEDROWS;
+[0mDELETE /api/faqs/142 [32m200[0m 44.448 ms - 234[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [32m200[0m 3.205 ms - 568[0m
+[0mGET /uploads/2023-03-02T081510_2_Consultation.jpg [32m200[0m 0.468 ms - 87671[0m
+[0mGET /uploads/2023-03-02T081510_2_Consultation.jpg [36m304[0m 1.308 ms - -[0m
+[0mGET /uploads/2023-03-02T081510_2_Consultation.jpg [36m304[0m 0.731 ms - -[0m
+[0mGET /uploads/2023-03-02T081510_2_Consultation.jpg [36m304[0m 0.289 ms - -[0m
+[0mGET /uploads/2023-03-02T081510_2_Consultation.jpg [36m304[0m 0.354 ms - -[0m
+[0mGET /uploads/2023-03-02T081510_2_Consultation.jpg [36m304[0m 0.544 ms - -[0m
+[0mGET /uploads/2023-03-02T082325_145_Consultation.jpg [32m200[0m 0.683 ms - 87671[0m
+Executing (default): SELECT [username], [userlib], [password], [id], [createdAt], [updatedAt] FROM [Users] AS [User] WHERE [User].[username] = N'MLSA';
+[0mPOST /api/login [32m200[0m 96.966 ms - 402[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [32m200[0m 4.221 ms - 767[0m
+[0mGET /uploads/2023-03-02T082325_145_Consultation.jpg [32m200[0m 0.752 ms - 87671[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ] WHERE [FAQ].[id] = N'145';
+Executing (default): DELETE FROM [FAQs] WHERE [id] = 145; SELECT @@ROWCOUNT AS AFFECTEDROWS;
+[0mDELETE /api/faqs/145 [32m200[0m 8.668 ms - 234[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [32m200[0m 3.305 ms - 568[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [32m200[0m 4.236 ms - 568[0m
+[0mOPTIONS /api/login [32m204[0m 1.402 ms - 0[0m
+[0mOPTIONS /api/faqs [32m204[0m 0.235 ms - 0[0m
+Executing (default): SELECT [username], [userlib], [password], [id], [createdAt], [updatedAt] FROM [Users] AS [User] WHERE [User].[username] = N'MLSA';
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [32m200[0m 36.248 ms - 568[0m
+[0mPOST /api/login [32m200[0m 99.662 ms - 402[0m
+[0mOPTIONS /api/login [32m204[0m 0.194 ms - 0[0m
+Executing (default): SELECT [username], [userlib], [password], [id], [createdAt], [updatedAt] FROM [Users] AS [User] WHERE [User].[username] = N'MLSA';
+[0mPOST /api/login [32m200[0m 108.472 ms - 402[0m
+[0mOPTIONS /api/login [32m204[0m 0.249 ms - 0[0m
+Executing (default): SELECT [username], [userlib], [password], [id], [createdAt], [updatedAt] FROM [Users] AS [User] WHERE [User].[username] = N'MLSA';
+[0mPOST /api/login [32m200[0m 103.341 ms - 402[0m
+Executing (default): SELECT [username], [userlib], [password], [id], [createdAt], [updatedAt] FROM [Users] AS [User] WHERE [User].[username] = N'MLSA';
+[0mPOST /api/login [32m200[0m 64.230 ms - 402[0m
+[0mOPTIONS /api/login [32m204[0m 0.108 ms - 0[0m
+Executing (default): SELECT [username], [userlib], [password], [id], [createdAt], [updatedAt] FROM [Users] AS [User] WHERE [User].[username] = N'MLSA';
+[0mPOST /api/login [32m200[0m 62.543 ms - 402[0m
+[0mOPTIONS /api/login [32m204[0m 0.173 ms - 0[0m
+Executing (default): SELECT [username], [userlib], [password], [id], [createdAt], [updatedAt] FROM [Users] AS [User] WHERE [User].[username] = N'MLSA';
+[0mOPTIONS /api/faqs [32m204[0m 0.133 ms - 0[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [36m304[0m 3.641 ms - -[0m
+[0mPOST /api/login [32m200[0m 69.226 ms - 402[0m
+[0mOPTIONS /api/login [32m204[0m 0.181 ms - 0[0m
+[0mOPTIONS /api/faqs [32m204[0m 0.365 ms - 0[0m
+Executing (default): SELECT [username], [userlib], [password], [id], [createdAt], [updatedAt] FROM [Users] AS [User] WHERE [User].[username] = N'MLSA';
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [36m304[0m 43.525 ms - -[0m
+[0mPOST /api/login [32m200[0m 108.900 ms - 402[0m
+[0mOPTIONS /api/login [32m204[0m 0.456 ms - 0[0m
+[0mOPTIONS /api/faqs [32m204[0m 0.232 ms - 0[0m
+Executing (default): SELECT [username], [userlib], [password], [id], [createdAt], [updatedAt] FROM [Users] AS [User] WHERE [User].[username] = N'MLSA';
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [36m304[0m 50.323 ms - -[0m
+[0mPOST /api/login [32m200[0m 116.525 ms - 402[0m
+[0mOPTIONS /api/login [32m204[0m 0.183 ms - 0[0m
+[0mOPTIONS /api/faqs [32m204[0m 0.183 ms - 0[0m
+Executing (default): SELECT [username], [userlib], [password], [id], [createdAt], [updatedAt] FROM [Users] AS [User] WHERE [User].[username] = N'MLSA';
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [36m304[0m 43.470 ms - -[0m
+[0mPOST /api/login [32m200[0m 104.557 ms - 402[0m
+[0mOPTIONS /api/login [32m204[0m 0.155 ms - 0[0m
+[0mOPTIONS /api/faqs [32m204[0m 0.138 ms - 0[0m
+Executing (default): SELECT [username], [userlib], [password], [id], [createdAt], [updatedAt] FROM [Users] AS [User] WHERE [User].[username] = N'MLSA';
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [36m304[0m 44.682 ms - -[0m
+[0mPOST /api/login [32m200[0m 104.303 ms - 402[0m
+[0mOPTIONS /api/login [32m204[0m 0.108 ms - 0[0m
+[0mOPTIONS /api/faqs [32m204[0m 0.123 ms - 0[0m
+Executing (default): SELECT [username], [userlib], [password], [id], [createdAt], [updatedAt] FROM [Users] AS [User] WHERE [User].[username] = N'MLSA';
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [36m304[0m 46.768 ms - -[0m
+[0mPOST /api/login [32m200[0m 105.511 ms - 402[0m
+[0mOPTIONS /api/faqs [32m204[0m 0.138 ms - 0[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [36m304[0m 37.858 ms - -[0m
+[0mOPTIONS /api/login [32m204[0m 0.134 ms - 0[0m
+Executing (default): SELECT [username], [userlib], [password], [id], [createdAt], [updatedAt] FROM [Users] AS [User] WHERE [User].[username] = N'MLSA';
+[0mPOST /api/login [32m200[0m 98.636 ms - 402[0m
+[0mOPTIONS /api/faqs [32m204[0m 0.114 ms - 0[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [36m304[0m 36.837 ms - -[0m
+[0mOPTIONS /api/faqs [32m204[0m 0.119 ms - 0[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [36m304[0m 4.518 ms - -[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [36m304[0m 4.224 ms - -[0m
+fichier ajoute : [object Object]
+Executing (default): INSERT INTO [FAQs] ([question],[answer],[productId],[picture],[created]) OUTPUT INSERTED.[id],INSERTED.[question],INSERTED.[answer],INSERTED.[productId],INSERTED.[picture],INSERTED.[created] VALUES (@0,@1,@2,@3,@4);
+[0mPOST /api/faq [32m200[0m 41.233 ms - 182[0m
+[0mOPTIONS /api/faqs [32m204[0m 0.216 ms - 0[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [32m200[0m 39.131 ms - 718[0m
+[0mOPTIONS /api/login [32m204[0m 0.094 ms - 0[0m
+[0mOPTIONS /api/faqs [32m204[0m 0.165 ms - 0[0m
+Executing (default): SELECT [username], [userlib], [password], [id], [createdAt], [updatedAt] FROM [Users] AS [User] WHERE [User].[username] = N'MLSA';
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [36m304[0m 38.096 ms - -[0m
+[0mPOST /api/login [32m200[0m 99.106 ms - 402[0m
+[0mOPTIONS /api/faq [32m204[0m 0.136 ms - 0[0m
+[0mOPTIONS /api/login [32m204[0m 0.062 ms - 0[0m
+[0mPOST /api/faq [33m400[0m 3.539 ms - 1074[0m
+Executing (default): SELECT [username], [userlib], [password], [id], [createdAt], [updatedAt] FROM [Users] AS [User] WHERE [User].[username] = N'MLSA';
+[0mPOST /api/login [32m200[0m 104.733 ms - 402[0m
+[0mOPTIONS /api/faq [32m204[0m 0.084 ms - 0[0m
+[0mPOST /api/faq [33m400[0m 0.642 ms - 1074[0m
+[0mOPTIONS /api/login [32m204[0m 0.172 ms - 0[0m
+Executing (default): SELECT [username], [userlib], [password], [id], [createdAt], [updatedAt] FROM [Users] AS [User] WHERE [User].[username] = N'MLSA';
+[0mPOST /api/login [32m200[0m 101.129 ms - 402[0m
+Executing (default): SELECT [username], [userlib], [password], [id], [createdAt], [updatedAt] FROM [Users] AS [User] WHERE [User].[username] = N'MLSA';
+[0mPOST /api/login [32m200[0m 86.249 ms - 402[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [32m200[0m 3.449 ms - 718[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [32m200[0m 3.464 ms - 718[0m
+fichier ajoute : undefined
+Executing (default): INSERT INTO [FAQs] ([question],[answer],[productId],[picture],[created]) OUTPUT INSERTED.[id],INSERTED.[question],INSERTED.[answer],INSERTED.[productId],INSERTED.[picture],INSERTED.[created] VALUES (@0,@1,@2,@3,@4);
+[0mPOST /api/faq [32m200[0m 39.684 ms - 137[0m
+[0mGET /uploads/2023-03-02T100017_2_Consultation.jpg [33m404[0m 1.439 ms - 48[0m
+[0mGET /uploads/2023-02-28T155829_11_Consultation.jpg [33m404[0m 0.384 ms - 48[0m
+[0mGET /uploads/2023-03-02T100017_2_Consultation.jpg [33m404[0m 0.553 ms - 48[0m
+[0mGET /uploads/2023-02-28T155829_11_Consultation.jpg [33m404[0m 0.976 ms - 48[0m
+[0mGET /uploads/2023-02-28T155829_11_Consultation.jpg [33m404[0m 0.375 ms - 48[0m
+[0mGET /uploads/2023-02-28T155829_11_Consultation.jpg [33m404[0m 0.587 ms - 48[0m
+[0mGET /uploads/2023-02-28T155829_11_Consultation.jpg [33m404[0m 0.409 ms - 48[0m
+[0mGET /uploads/2023-03-02T101724_19_Consultation.jpg [33m404[0m 1.369 ms - 48[0m
+Executing (default): SELECT [username], [userlib], [password], [id], [createdAt], [updatedAt] FROM [Users] AS [User] WHERE [User].[username] = N'MLSA';
+[0mPOST /api/login [32m200[0m 103.690 ms - 402[0m
+fichier ajoute : undefined
+Executing (default): INSERT INTO [FAQs] ([question],[answer],[productId],[created]) OUTPUT INSERTED.[id],INSERTED.[question],INSERTED.[answer],INSERTED.[productId],INSERTED.[picture],INSERTED.[created] VALUES (@0,@1,@2,@3);
+[0mPOST /api/faq [32m200[0m 6.056 ms - 1337[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [32m200[0m 4.498 ms - 1371[0m
+Executing (default): SELECT [username], [userlib], [password], [id], [createdAt], [updatedAt] FROM [Users] AS [User] WHERE [User].[username] = N'MLSA';
+[0mPOST /api/login [32m200[0m 90.474 ms - 402[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [32m200[0m 3.113 ms - 1371[0m
+fichier ajoute : undefined
+Executing (default): INSERT INTO [FAQs] ([question],[answer],[productId],[created]) OUTPUT INSERTED.[id],INSERTED.[question],INSERTED.[answer],INSERTED.[productId],INSERTED.[picture],INSERTED.[created] VALUES (@0,@1,@2,@3);
+[0mPOST /api/faq [32m200[0m 4.890 ms - 1337[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [32m200[0m 2.951 ms - 2676[0m
+Executing (default): SELECT [username], [userlib], [password], [id], [createdAt], [updatedAt] FROM [Users] AS [User] WHERE [User].[username] = N'MLSA';
+[0mPOST /api/login [32m200[0m 94.158 ms - 402[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [32m200[0m 2.909 ms - 2676[0m
+fichier ajoute : undefined
+Executing (default): INSERT INTO [FAQs] ([question],[answer],[productId],[created]) OUTPUT INSERTED.[id],INSERTED.[question],INSERTED.[answer],INSERTED.[productId],INSERTED.[picture],INSERTED.[created] VALUES (@0,@1,@2,@3);
+[0mPOST /api/faq [32m200[0m 7.597 ms - 1278[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [32m200[0m 3.829 ms - 3922[0m
+fichier ajoute : undefined
+Executing (default): INSERT INTO [FAQs] ([question],[answer],[productId],[created]) OUTPUT INSERTED.[id],INSERTED.[question],INSERTED.[answer],INSERTED.[productId],INSERTED.[picture],INSERTED.[created] VALUES (@0,@1,@2,@3);
+[0mPOST /api/faq [32m200[0m 6.778 ms - 1267[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [32m200[0m 2.901 ms - 5157[0m
+fichier ajoute : undefined
+Executing (default): INSERT INTO [FAQs] ([question],[answer],[productId],[created]) OUTPUT INSERTED.[id],INSERTED.[question],INSERTED.[answer],INSERTED.[productId],INSERTED.[picture],INSERTED.[created] VALUES (@0,@1,@2,@3);
+[0mPOST /api/faq [32m200[0m 6.787 ms - 1298[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [32m200[0m 4.209 ms - 6423[0m
+Executing (default): SELECT [username], [userlib], [password], [id], [createdAt], [updatedAt] FROM [Users] AS [User] WHERE [User].[username] = N'MLSA';
+[0mPOST /api/login [32m200[0m 103.352 ms - 402[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [32m200[0m 3.709 ms - 6423[0m
+fichier ajoute : undefined
+Executing (default): INSERT INTO [FAQs] ([question],[answer],[productId],[created]) OUTPUT INSERTED.[id],INSERTED.[question],INSERTED.[answer],INSERTED.[productId],INSERTED.[picture],INSERTED.[created] VALUES (@0,@1,@2,@3);
+[0mPOST /api/faq [32m200[0m 39.633 ms - 147[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [32m200[0m 3.315 ms - 6538[0m
+[0mGET /text [33m404[0m 3.652 ms - 48[0m
+[0mGET /text [33m404[0m 0.249 ms - 48[0m
+[0mGET /text [33m404[0m 0.254 ms - 48[0m
+[0mOPTIONS /api/login [32m204[0m 1.182 ms - 0[0m
+[0mOPTIONS /api/ip [32m204[0m 0.110 ms - 0[0m
+[0mOPTIONS /api/trad [32m204[0m 0.084 ms - 0[0m
+[0mOPTIONS /api/faqs [32m204[0m 0.110 ms - 0[0m
+[0mOPTIONS /api/faqs [32m204[0m 0.107 ms - 0[0m
+[0mGET /api/ip [33m404[0m 0.945 ms - 48[0m
+[0mGET /api/trad [33m404[0m 0.211 ms - 48[0m
+Executing (default): SELECT [username], [userlib], [password], [id], [createdAt], [updatedAt] FROM [Users] AS [User] WHERE [User].[username] = N'MLSA';
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [32m200[0m 148.190 ms - 9481[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [36m304[0m 3.515 ms - -[0m
+[0mPOST /api/login [32m200[0m 212.038 ms - 402[0m
+Executing (default): SELECT [username], [userlib], [password], [id], [createdAt], [updatedAt] FROM [Users] AS [User] WHERE [User].[username] = N'MLSA';
+[0mGET /api/ip [33m404[0m 0.241 ms - 48[0m
+[0mGET /api/trad [33m404[0m 0.193 ms - 48[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [36m304[0m 4.896 ms - -[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [36m304[0m 7.602 ms - -[0m
+[0mPOST /api/login [32m200[0m 66.891 ms - 402[0m
+ajout
+demarré port 3056
+Executing (default): SELECT [username], [userlib], [password], [id], [createdAt], [updatedAt] FROM [Users] AS [User] WHERE [User].[username] = N'MLSA';
+[0mPOST /api/login [32m200[0m 269.894 ms - 402[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [32m200[0m 11.257 ms - 9458[0m
+[0mPOST /api/pdf [33m404[0m 0.650 ms - 48[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [32m200[0m 4.188 ms - 9458[0m
+ajout
+demarré port 3055
+ajout
+demarré port 3055
+ajout
+demarré port 3055
+ajout
+demarré port 3055
+ajout
+demarré port 3055
+MLSA
+Executing (default): SELECT [username], [userlib], [password], [id], [createdAt], [updatedAt] FROM [Users] AS [User] WHERE [User].[username] = N'MLSA';
+[0mPOST /api/login [32m200[0m 259.342 ms - 402[0m
+Executing (default): SELECT [id], [question], [answer], [productId], [picture], [pdfId], [created] FROM [FAQs] AS [FAQ];
+[0mGET /api/faqs [32m200[0m 21.845 ms - 296[0m
+ajout
+demarré port 3056
+Executing (default): DROP TABLE IF EXISTS `pdfs`;
+Executing (default): DROP TABLE IF EXISTS `FAQs`;
+Executing (default): DROP TABLE IF EXISTS `T_Tourne`;
+Executing (default): DROP TABLE IF EXISTS `Users`;
+Executing (default): PRAGMA foreign_keys = OFF
+Executing (default): DROP TABLE IF EXISTS `Users`;
+Executing (default): DROP TABLE IF EXISTS `T_Tourne`;
+Executing (default): DROP TABLE IF EXISTS `FAQs`;
+Executing (default): DROP TABLE IF EXISTS `pdfs`;
+Executing (default): PRAGMA foreign_keys = ON
+Executing (default): DROP TABLE IF EXISTS `Users`;
+Executing (default): CREATE TABLE IF NOT EXISTS `Users` (`username` VARCHAR(255), `userlib` VARCHAR(255), `password` VARCHAR(255), `id` INTEGER PRIMARY KEY AUTOINCREMENT, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, UNIQUE (`username`));
+Executing (default): PRAGMA INDEX_LIST(`Users`)
+Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_Users_1`)
+Executing (default): DROP TABLE IF EXISTS `T_Tourne`;
+Executing (default): CREATE TABLE IF NOT EXISTS `T_Tourne` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `toucode` VARCHAR(255) NOT NULL, `toulib` VARCHAR(255) NOT NULL, `toujou` INTEGER NOT NULL, `created` DATETIME NOT NULL);
+Executing (default): PRAGMA INDEX_LIST(`T_Tourne`)
+Executing (default): DROP TABLE IF EXISTS `FAQs`;
+Executing (default): CREATE TABLE IF NOT EXISTS `FAQs` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `question` VARCHAR(255) NOT NULL, `answer` VARCHAR(255) NOT NULL, `productId` INTEGER NOT NULL, `picture` VARCHAR(255), `pdfId` INTEGER, `created` DATETIME NOT NULL);
+Executing (default): PRAGMA INDEX_LIST(`FAQs`)
+Executing (default): DROP TABLE IF EXISTS `pdfs`;
+Executing (default): CREATE TABLE IF NOT EXISTS `pdfs` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `filename` VARCHAR(255) NOT NULL, `pdf` LONGBLOB, `created` DATETIME NOT NULL);
+Executing (default): PRAGMA INDEX_LIST(`pdfs`)
+Executing (default): INSERT INTO `Users` (`username`,`userlib`,`password`,`id`,`createdAt`,`updatedAt`) VALUES ($1,$2,$3,NULL,$4,$5);
+{
+  id: 1,
+  username: 'MLSA',
+  userlib: 'Administrateur',
+  password: '$2b$10$EnYvSo/G6KqR4PpsYe4LNO5hcO876vuc2KTtSPNz1Xay4WBW2UPvi',
+  updatedAt: 2023-03-22T08:49:50.716Z,
+  createdAt: 2023-03-22T08:49:50.716Z
+}
+ajout
+demarré port 3055
+Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='Users';
+Executing (default): PRAGMA INDEX_LIST(`Users`)
+Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_Users_1`)
+Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='FAQs';
+Executing (default): PRAGMA INDEX_LIST(`FAQs`)
+Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='pdfs';
+Executing (default): PRAGMA INDEX_LIST(`pdfs`)
+[0mOPTIONS /api/login [32m204[0m 2.611 ms - 0[0m
+MLSA
+Executing (default): SELECT `username`, `userlib`, `password`, `id`, `createdAt`, `updatedAt` FROM `Users` AS `User` WHERE `User`.`username` = 'MLSA';
+[0mOPTIONS /api/ip [32m204[0m 0.147 ms - 0[0m
+[0mOPTIONS /api/faqs [32m204[0m 0.096 ms - 0[0m
+[0mOPTIONS /api/faqs?conditionNation=fr [32m204[0m 1.127 ms - 0[0m
+[0mGET /api/ip [36m304[0m 4.880 ms - -[0m
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ`;
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`nation` = 'fr';
+[0mGET /api/faqs [36m304[0m 5.697 ms - -[0m
+[0mGET /api/faqs?conditionNation=fr [36m304[0m 6.113 ms - -[0m
+[0mPOST /api/login [32m200[0m 193.728 ms - 402[0m
+[0mOPTIONS /api/faqs/9 [32m204[0m 0.106 ms - 0[0m
+param9
+bodyundefined
+9
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`id` = 9;
+[0mGET /api/faqs/9 [36m304[0m 5.341 ms - -[0m
+[0mOPTIONS /api/pdf/4 [32m204[0m 0.127 ms - 0[0m
+4
+Executing (default): SELECT `id`, `filename`, `pdf`, `created` FROM `pdfs` AS `pdf` WHERE `pdf`.`id` = 4;
+[0mGET /api/pdf/4 [36m304[0m 11.718 ms - -[0m
+[0mOPTIONS /api/faqs?conditionNation=fr [32m204[0m 0.208 ms - 0[0m
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`nation` = 'fr';
+[0mGET /api/faqs?conditionNation=fr [36m304[0m 3.126 ms - -[0m
+[0mOPTIONS /api/login [32m204[0m 0.179 ms - 0[0m
+MLSA
+Executing (default): SELECT `username`, `userlib`, `password`, `id`, `createdAt`, `updatedAt` FROM `Users` AS `User` WHERE `User`.`username` = 'MLSA';
+[0mOPTIONS /api/ip [32m204[0m 0.136 ms - 0[0m
+[0mOPTIONS /api/faqs [32m204[0m 0.126 ms - 0[0m
+[0mGET /api/ip [36m304[0m 0.449 ms - -[0m
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ`;
+[0mGET /api/faqs [36m304[0m 1.588 ms - -[0m
+[0mOPTIONS /api/faqs?conditionNation=fr [32m204[0m 0.123 ms - 0[0m
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`nation` = 'fr';
+[0mGET /api/faqs?conditionNation=fr [36m304[0m 2.206 ms - -[0m
+[0mPOST /api/login [32m200[0m 59.841 ms - 402[0m
+[0mOPTIONS /api/faqs/10 [32m204[0m 0.144 ms - 0[0m
+param10
+bodyundefined
+10
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`id` = 10;
+[0mGET /api/faqs/10 [36m304[0m 2.967 ms - -[0m
+[0mOPTIONS /api/pdf/5 [32m204[0m 0.179 ms - 0[0m
+5
+Executing (default): SELECT `id`, `filename`, `pdf`, `created` FROM `pdfs` AS `pdf` WHERE `pdf`.`id` = 5;
+[0mGET /api/pdf/5 [36m304[0m 23.107 ms - -[0m
+[0mOPTIONS /api/faqs?conditionNation=fr [32m204[0m 0.146 ms - 0[0m
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`nation` = 'fr';
+[0mGET /api/faqs?conditionNation=fr [36m304[0m 2.030 ms - -[0m
+[0mOPTIONS /api/login [32m204[0m 0.102 ms - 0[0m
+MLSA
+Executing (default): SELECT `username`, `userlib`, `password`, `id`, `createdAt`, `updatedAt` FROM `Users` AS `User` WHERE `User`.`username` = 'MLSA';
+[0mOPTIONS /api/ip [32m204[0m 0.106 ms - 0[0m
+[0mOPTIONS /api/faqs [32m204[0m 0.080 ms - 0[0m
+[0mGET /api/ip [36m304[0m 0.222 ms - -[0m
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ`;
+[0mGET /api/faqs [36m304[0m 2.030 ms - -[0m
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`nation` = 'fr';
+[0mGET /api/faqs?conditionNation=fr [36m304[0m 2.387 ms - -[0m
+[0mPOST /api/login [32m200[0m 60.940 ms - 402[0m
+[0mOPTIONS /api/faqs/10 [32m204[0m 0.097 ms - 0[0m
+param10
+bodyundefined
+10
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`id` = 10;
+[0mGET /api/faqs/10 [36m304[0m 3.129 ms - -[0m
+[0mOPTIONS /api/pdf/5 [32m204[0m 0.102 ms - 0[0m
+5
+Executing (default): SELECT `id`, `filename`, `pdf`, `created` FROM `pdfs` AS `pdf` WHERE `pdf`.`id` = 5;
+[0mGET /api/pdf/5 [36m304[0m 24.231 ms - -[0m
+[0mOPTIONS /api/pdf/5 [32m204[0m 0.144 ms - 0[0m
+5
+Executing (default): SELECT `id`, `filename`, `pdf`, `created` FROM `pdfs` AS `pdf` WHERE `pdf`.`id` = 5;
+[0mGET /api/pdf/5 [36m304[0m 20.010 ms - -[0m
+[0mOPTIONS /api/pdf/5 [32m204[0m 0.097 ms - 0[0m
+5
+Executing (default): SELECT `id`, `filename`, `pdf`, `created` FROM `pdfs` AS `pdf` WHERE `pdf`.`id` = 5;
+[0mGET /api/pdf/5 [36m304[0m 22.363 ms - -[0m
+[0mOPTIONS /api/pdf/5 [32m204[0m 0.087 ms - 0[0m
+5
+Executing (default): SELECT `id`, `filename`, `pdf`, `created` FROM `pdfs` AS `pdf` WHERE `pdf`.`id` = 5;
+[0mGET /api/pdf/5 [36m304[0m 19.938 ms - -[0m
+[0mOPTIONS /api/pdf/5 [32m204[0m 0.102 ms - 0[0m
+5
+Executing (default): SELECT `id`, `filename`, `pdf`, `created` FROM `pdfs` AS `pdf` WHERE `pdf`.`id` = 5;
+[0mGET /api/pdf/5 [36m304[0m 24.781 ms - -[0m
+[0mOPTIONS /api/login [32m204[0m 0.081 ms - 0[0m
+MLSA
+Executing (default): SELECT `username`, `userlib`, `password`, `id`, `createdAt`, `updatedAt` FROM `Users` AS `User` WHERE `User`.`username` = 'MLSA';
+[0mOPTIONS /api/ip [32m204[0m 0.125 ms - 0[0m
+[0mOPTIONS /api/faqs [32m204[0m 0.261 ms - 0[0m
+[0mGET /api/ip [36m304[0m 0.732 ms - -[0m
+[0mOPTIONS /api/faqs/10 [32m204[0m 0.186 ms - 0[0m
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ`;
+param10
+bodyundefined
+10
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`id` = 10;
+[0mGET /api/faqs [36m304[0m 5.742 ms - -[0m
+[0mGET /api/faqs/10 [36m304[0m 5.612 ms - -[0m
+[0mPOST /api/login [32m200[0m 61.711 ms - 402[0m
+[0mOPTIONS /api/pdf/5 [32m204[0m 0.151 ms - 0[0m
+5
+Executing (default): SELECT `id`, `filename`, `pdf`, `created` FROM `pdfs` AS `pdf` WHERE `pdf`.`id` = 5;
+[0mGET /api/pdf/5 [36m304[0m 20.996 ms - -[0m
+[0mOPTIONS /api/faqs?conditionNation=fr [32m204[0m 0.154 ms - 0[0m
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`nation` = 'fr';
+[0mGET /api/faqs?conditionNation=fr [36m304[0m 2.041 ms - -[0m
+[0mOPTIONS /api/faqs/9 [32m204[0m 0.225 ms - 0[0m
+param9
+bodyundefined
+9
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`id` = 9;
+[0mGET /api/faqs/9 [36m304[0m 3.115 ms - -[0m
+[0mOPTIONS /api/pdf/4 [32m204[0m 0.098 ms - 0[0m
+4
+Executing (default): SELECT `id`, `filename`, `pdf`, `created` FROM `pdfs` AS `pdf` WHERE `pdf`.`id` = 4;
+[0mGET /api/pdf/4 [36m304[0m 6.494 ms - -[0m
+[0mOPTIONS /api/login [32m204[0m 0.086 ms - 0[0m
+MLSA
+Executing (default): SELECT `username`, `userlib`, `password`, `id`, `createdAt`, `updatedAt` FROM `Users` AS `User` WHERE `User`.`username` = 'MLSA';
+[0mOPTIONS /api/ip [32m204[0m 0.106 ms - 0[0m
+[0mOPTIONS /api/faqs [32m204[0m 0.118 ms - 0[0m
+[0mOPTIONS /api/faqs/9 [32m204[0m 0.120 ms - 0[0m
+[0mGET /api/ip [36m304[0m 0.653 ms - -[0m
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ`;
+param9
+bodyundefined
+9
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`id` = 9;
+[0mGET /api/faqs [36m304[0m 6.118 ms - -[0m
+[0mGET /api/faqs/9 [36m304[0m 5.439 ms - -[0m
+[0mPOST /api/login [32m200[0m 60.540 ms - 402[0m
+[0mOPTIONS /api/pdf/4 [32m204[0m 0.106 ms - 0[0m
+4
+Executing (default): SELECT `id`, `filename`, `pdf`, `created` FROM `pdfs` AS `pdf` WHERE `pdf`.`id` = 4;
+[0mGET /api/pdf/4 [36m304[0m 6.262 ms - -[0m
+[0mOPTIONS /api/pdf/4 [32m204[0m 0.087 ms - 0[0m
+4
+Executing (default): SELECT `id`, `filename`, `pdf`, `created` FROM `pdfs` AS `pdf` WHERE `pdf`.`id` = 4;
+[0mGET /api/pdf/4 [36m304[0m 5.932 ms - -[0m
+[0mOPTIONS /api/login [32m204[0m 0.142 ms - 0[0m
+MLSA
+Executing (default): SELECT `username`, `userlib`, `password`, `id`, `createdAt`, `updatedAt` FROM `Users` AS `User` WHERE `User`.`username` = 'MLSA';
+[0mOPTIONS /api/ip [32m204[0m 0.116 ms - 0[0m
+[0mOPTIONS /api/faqs [32m204[0m 0.085 ms - 0[0m
+[0mGET /api/ip [36m304[0m 0.715 ms - -[0m
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ`;
+[0mGET /api/faqs [36m304[0m 2.086 ms - -[0m
+[0mOPTIONS /api/faqs/9 [32m204[0m 0.093 ms - 0[0m
+param9
+bodyundefined
+9
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`id` = 9;
+[0mGET /api/faqs/9 [36m304[0m 3.125 ms - -[0m
+[0mPOST /api/login [32m200[0m 57.920 ms - 402[0m
+MLSA
+Executing (default): SELECT `username`, `userlib`, `password`, `id`, `createdAt`, `updatedAt` FROM `Users` AS `User` WHERE `User`.`username` = 'MLSA';
+[0mGET /api/ip [36m304[0m 0.357 ms - -[0m
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ`;
+[0mGET /api/faqs [36m304[0m 2.382 ms - -[0m
+[0mOPTIONS /api/faqs?conditionNation=fr [32m204[0m 0.118 ms - 0[0m
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`nation` = 'fr';
+[0mGET /api/faqs?conditionNation=fr [36m304[0m 1.779 ms - -[0m
+[0mPOST /api/login [32m200[0m 61.629 ms - 402[0m
+[0mOPTIONS /api/faqs/10 [32m204[0m 0.117 ms - 0[0m
+param10
+bodyundefined
+10
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`id` = 10;
+[0mGET /api/faqs/10 [36m304[0m 3.141 ms - -[0m
+[0mOPTIONS /api/pdf/5 [32m204[0m 0.104 ms - 0[0m
+5
+Executing (default): SELECT `id`, `filename`, `pdf`, `created` FROM `pdfs` AS `pdf` WHERE `pdf`.`id` = 5;
+[0mGET /api/pdf/5 [36m304[0m 24.333 ms - -[0m
+[0mOPTIONS /api/pdf/5 [32m204[0m 0.134 ms - 0[0m
+5
+Executing (default): SELECT `id`, `filename`, `pdf`, `created` FROM `pdfs` AS `pdf` WHERE `pdf`.`id` = 5;
+[0mGET /api/pdf/5 [36m304[0m 19.568 ms - -[0m
+[0mOPTIONS /api/login [32m204[0m 0.209 ms - 0[0m
+MLSA
+Executing (default): SELECT `username`, `userlib`, `password`, `id`, `createdAt`, `updatedAt` FROM `Users` AS `User` WHERE `User`.`username` = 'MLSA';
+[0mOPTIONS /api/ip [32m204[0m 0.093 ms - 0[0m
+[0mOPTIONS /api/faqs [32m204[0m 0.071 ms - 0[0m
+[0mGET /api/ip [36m304[0m 0.402 ms - -[0m
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ`;
+[0mOPTIONS /api/faqs/10 [32m204[0m 0.096 ms - 0[0m
+param10
+bodyundefined
+10
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`id` = 10;
+[0mGET /api/faqs [36m304[0m 6.212 ms - -[0m
+[0mGET /api/faqs/10 [36m304[0m 5.470 ms - -[0m
+[0mPOST /api/login [32m200[0m 61.550 ms - 402[0m
+[0mOPTIONS /api/pdf/5 [32m204[0m 0.099 ms - 0[0m
+5
+Executing (default): SELECT `id`, `filename`, `pdf`, `created` FROM `pdfs` AS `pdf` WHERE `pdf`.`id` = 5;
+[0mGET /api/pdf/5 [36m304[0m 18.319 ms - -[0m
+[0mOPTIONS /api/login [32m204[0m 0.099 ms - 0[0m
+MLSA
+Executing (default): SELECT `username`, `userlib`, `password`, `id`, `createdAt`, `updatedAt` FROM `Users` AS `User` WHERE `User`.`username` = 'MLSA';
+[0mOPTIONS /api/ip [32m204[0m 0.155 ms - 0[0m
+[0mOPTIONS /api/faqs [32m204[0m 0.094 ms - 0[0m
+[0mGET /api/ip [36m304[0m 0.404 ms - -[0m
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ`;
+[0mGET /api/faqs [36m304[0m 1.984 ms - -[0m
+[0mOPTIONS /api/faqs/9 [32m204[0m 0.080 ms - 0[0m
+param9
+bodyundefined
+9
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`id` = 9;
+[0mGET /api/faqs/9 [36m304[0m 3.376 ms - -[0m
+MLSA
+Executing (default): SELECT `username`, `userlib`, `password`, `id`, `createdAt`, `updatedAt` FROM `Users` AS `User` WHERE `User`.`username` = 'MLSA';
+[0mGET /api/ip [36m304[0m 0.287 ms - -[0m
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ`;
+[0mGET /api/faqs [36m304[0m 1.341 ms - -[0m
+[0mOPTIONS /api/faqs/10 [32m204[0m 0.109 ms - 0[0m
+param10
+bodyundefined
+10
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`id` = 10;
+[0mGET /api/faqs/10 [36m304[0m 4.660 ms - -[0m
+[0mPOST /api/login [32m200[0m 61.166 ms - 402[0m
+[0mPOST /api/login [32m200[0m 58.796 ms - 402[0m
+MLSA
+Executing (default): SELECT `username`, `userlib`, `password`, `id`, `createdAt`, `updatedAt` FROM `Users` AS `User` WHERE `User`.`username` = 'MLSA';
+[0mGET /api/ip [36m304[0m 0.420 ms - -[0m
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ`;
+[0mGET /api/faqs [36m304[0m 1.800 ms - -[0m
+[0mOPTIONS /api/faqs?conditionNation=fr [32m204[0m 0.113 ms - 0[0m
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`nation` = 'fr';
+[0mGET /api/faqs?conditionNation=fr [36m304[0m 1.442 ms - -[0m
+[0mPOST /api/login [32m200[0m 57.861 ms - 402[0m
+[0mOPTIONS /api/login [32m204[0m 0.083 ms - 0[0m
+MLSA
+Executing (default): SELECT `username`, `userlib`, `password`, `id`, `createdAt`, `updatedAt` FROM `Users` AS `User` WHERE `User`.`username` = 'MLSA';
+[0mOPTIONS /api/ip [32m204[0m 0.100 ms - 0[0m
+[0mOPTIONS /api/faqs [32m204[0m 0.150 ms - 0[0m
+[0mGET /api/ip [36m304[0m 0.367 ms - -[0m
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ`;
+[0mGET /api/faqs [36m304[0m 1.591 ms - -[0m
+[0mOPTIONS /api/faqs/9 [32m204[0m 0.110 ms - 0[0m
+param9
+bodyundefined
+9
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`id` = 9;
+[0mGET /api/faqs/9 [36m304[0m 3.393 ms - -[0m
+[0mPOST /api/login [32m200[0m 60.516 ms - 402[0m
+[0mOPTIONS /api/pdf/4 [32m204[0m 0.079 ms - 0[0m
+4
+Executing (default): SELECT `id`, `filename`, `pdf`, `created` FROM `pdfs` AS `pdf` WHERE `pdf`.`id` = 4;
+[0mGET /api/pdf/4 [36m304[0m 5.677 ms - -[0m
+[0mOPTIONS /api/pdf/4 [32m204[0m 0.108 ms - 0[0m
+4
+Executing (default): SELECT `id`, `filename`, `pdf`, `created` FROM `pdfs` AS `pdf` WHERE `pdf`.`id` = 4;
+[0mGET /api/pdf/4 [36m304[0m 5.562 ms - -[0m
+[0mOPTIONS /api/faqs?conditionNation=fr [32m204[0m 0.288 ms - 0[0m
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`nation` = 'fr';
+[0mGET /api/faqs?conditionNation=fr [36m304[0m 2.112 ms - -[0m
+[0mOPTIONS /api/faqs/10 [32m204[0m 0.116 ms - 0[0m
+param10
+bodyundefined
+10
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`id` = 10;
+[0mGET /api/faqs/10 [36m304[0m 3.657 ms - -[0m
+[0mOPTIONS /api/pdf/5 [32m204[0m 0.130 ms - 0[0m
+5
+Executing (default): SELECT `id`, `filename`, `pdf`, `created` FROM `pdfs` AS `pdf` WHERE `pdf`.`id` = 5;
+[0mGET /api/pdf/5 [36m304[0m 19.575 ms - -[0m
+[0mOPTIONS /api/login [32m204[0m 0.109 ms - 0[0m
+MLSA
+Executing (default): SELECT `username`, `userlib`, `password`, `id`, `createdAt`, `updatedAt` FROM `Users` AS `User` WHERE `User`.`username` = 'MLSA';
+[0mOPTIONS /api/ip [32m204[0m 0.102 ms - 0[0m
+[0mOPTIONS /api/faqs [32m204[0m 0.104 ms - 0[0m
+[0mGET /api/ip [36m304[0m 0.810 ms - -[0m
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ`;
+[0mGET /api/faqs [36m304[0m 2.443 ms - -[0m
+[0mOPTIONS /api/faqs/10 [32m204[0m 0.163 ms - 0[0m
+param10
+bodyundefined
+10
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`id` = 10;
+[0mGET /api/faqs/10 [36m304[0m 9.950 ms - -[0m
+[0mPOST /api/login [32m200[0m 62.797 ms - 402[0m
+[0mOPTIONS /api/pdf/5 [32m204[0m 0.097 ms - 0[0m
+5
+Executing (default): SELECT `id`, `filename`, `pdf`, `created` FROM `pdfs` AS `pdf` WHERE `pdf`.`id` = 5;
+[0mGET /api/pdf/5 [36m304[0m 22.066 ms - -[0m
+[0mOPTIONS /api/faqs?conditionNation=fr [32m204[0m 0.106 ms - 0[0m
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`nation` = 'fr';
+[0mGET /api/faqs?conditionNation=fr [36m304[0m 3.762 ms - -[0m
+[0mOPTIONS /api/faqs/9 [32m204[0m 0.095 ms - 0[0m
+param9
+bodyundefined
+9
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`id` = 9;
+[0mGET /api/faqs/9 [36m304[0m 3.429 ms - -[0m
+[0mOPTIONS /api/pdf/4 [32m204[0m 0.204 ms - 0[0m
+4
+Executing (default): SELECT `id`, `filename`, `pdf`, `created` FROM `pdfs` AS `pdf` WHERE `pdf`.`id` = 4;
+[0mGET /api/pdf/4 [36m304[0m 5.757 ms - -[0m
+[0mOPTIONS /api/pdf/4 [32m204[0m 0.075 ms - 0[0m
+4
+Executing (default): SELECT `id`, `filename`, `pdf`, `created` FROM `pdfs` AS `pdf` WHERE `pdf`.`id` = 4;
+[0mGET /api/pdf/4 [36m304[0m 5.439 ms - -[0m
+[0mOPTIONS /api/login [32m204[0m 0.103 ms - 0[0m
+MLSA
+Executing (default): SELECT `username`, `userlib`, `password`, `id`, `createdAt`, `updatedAt` FROM `Users` AS `User` WHERE `User`.`username` = 'MLSA';
+[0mOPTIONS /api/ip [32m204[0m 0.063 ms - 0[0m
+[0mOPTIONS /api/faqs [32m204[0m 0.097 ms - 0[0m
+[0mGET /api/ip [36m304[0m 0.300 ms - -[0m
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ`;
+[0mGET /api/faqs [36m304[0m 3.063 ms - -[0m
+[0mOPTIONS /api/faqs/9 [32m204[0m 0.129 ms - 0[0m
+param9
+bodyundefined
+9
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`id` = 9;
+[0mGET /api/faqs/9 [36m304[0m 4.873 ms - -[0m
+[0mPOST /api/login [32m200[0m 61.436 ms - 402[0m
+[0mOPTIONS /api/pdf/4 [32m204[0m 0.091 ms - 0[0m
+4
+Executing (default): SELECT `id`, `filename`, `pdf`, `created` FROM `pdfs` AS `pdf` WHERE `pdf`.`id` = 4;
+[0mGET /api/pdf/4 [36m304[0m 5.396 ms - -[0m
+[0mOPTIONS /api/pdf/4 [32m204[0m 0.128 ms - 0[0m
+4
+Executing (default): SELECT `id`, `filename`, `pdf`, `created` FROM `pdfs` AS `pdf` WHERE `pdf`.`id` = 4;
+[0mGET /api/pdf/4 [36m304[0m 6.679 ms - -[0m
+[0mOPTIONS /api/faqs?conditionNation=fr [32m204[0m 0.070 ms - 0[0m
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`nation` = 'fr';
+[0mGET /api/faqs?conditionNation=fr [36m304[0m 2.397 ms - -[0m
+[0mOPTIONS /api/faqs/10 [32m204[0m 0.118 ms - 0[0m
+param10
+bodyundefined
+10
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`id` = 10;
+[0mGET /api/faqs/10 [36m304[0m 3.669 ms - -[0m
+[0mOPTIONS /api/pdf/5 [32m204[0m 0.186 ms - 0[0m
+5
+Executing (default): SELECT `id`, `filename`, `pdf`, `created` FROM `pdfs` AS `pdf` WHERE `pdf`.`id` = 5;
+[0mGET /api/pdf/5 [36m304[0m 19.928 ms - -[0m
+[0mOPTIONS /api/pdf/5 [32m204[0m 0.122 ms - 0[0m
+5
+Executing (default): SELECT `id`, `filename`, `pdf`, `created` FROM `pdfs` AS `pdf` WHERE `pdf`.`id` = 5;
+[0mGET /api/pdf/5 [36m304[0m 21.091 ms - -[0m
+[0mOPTIONS /api/login [32m204[0m 0.089 ms - 0[0m
+MLSA
+Executing (default): SELECT `username`, `userlib`, `password`, `id`, `createdAt`, `updatedAt` FROM `Users` AS `User` WHERE `User`.`username` = 'MLSA';
+[0mOPTIONS /api/ip [32m204[0m 0.103 ms - 0[0m
+[0mOPTIONS /api/faqs [32m204[0m 0.106 ms - 0[0m
+[0mGET /api/ip [36m304[0m 0.275 ms - -[0m
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ`;
+[0mGET /api/faqs [36m304[0m 2.706 ms - -[0m
+[0mOPTIONS /api/faqs/10 [32m204[0m 0.115 ms - 0[0m
+param10
+bodyundefined
+10
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`id` = 10;
+[0mGET /api/faqs/10 [36m304[0m 3.699 ms - -[0m
+[0mPOST /api/login [32m200[0m 63.564 ms - 402[0m
+[0mOPTIONS /api/pdf/5 [32m204[0m 0.094 ms - 0[0m
+5
+Executing (default): SELECT `id`, `filename`, `pdf`, `created` FROM `pdfs` AS `pdf` WHERE `pdf`.`id` = 5;
+[0mGET /api/pdf/5 [36m304[0m 23.077 ms - -[0m
+[0mOPTIONS /api/faqs?conditionNation=fr [32m204[0m 0.235 ms - 0[0m
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`nation` = 'fr';
+[0mGET /api/faqs?conditionNation=fr [36m304[0m 3.273 ms - -[0m
+[0mOPTIONS /api/faqs/9 [32m204[0m 0.113 ms - 0[0m
+param9
+bodyundefined
+9
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`id` = 9;
+[0mGET /api/faqs/9 [36m304[0m 3.444 ms - -[0m
+[0mOPTIONS /api/pdf/4 [32m204[0m 0.109 ms - 0[0m
+4
+Executing (default): SELECT `id`, `filename`, `pdf`, `created` FROM `pdfs` AS `pdf` WHERE `pdf`.`id` = 4;
+[0mGET /api/pdf/4 [36m304[0m 5.893 ms - -[0m
+[0mOPTIONS /api/pdf/4 [32m204[0m 0.145 ms - 0[0m
+4
+Executing (default): SELECT `id`, `filename`, `pdf`, `created` FROM `pdfs` AS `pdf` WHERE `pdf`.`id` = 4;
+[0mGET /api/pdf/4 [36m304[0m 5.954 ms - -[0m
+[0mOPTIONS /api/pdf/4 [32m204[0m 0.112 ms - 0[0m
+4
+Executing (default): SELECT `id`, `filename`, `pdf`, `created` FROM `pdfs` AS `pdf` WHERE `pdf`.`id` = 4;
+[0mGET /api/pdf/4 [36m304[0m 7.379 ms - -[0m
+[0mOPTIONS /api/pdf/4 [32m204[0m 0.077 ms - 0[0m
+4
+Executing (default): SELECT `id`, `filename`, `pdf`, `created` FROM `pdfs` AS `pdf` WHERE `pdf`.`id` = 4;
+[0mGET /api/pdf/4 [36m304[0m 6.886 ms - -[0m
+[0mOPTIONS /api/pdf/4 [32m204[0m 0.074 ms - 0[0m
+4
+Executing (default): SELECT `id`, `filename`, `pdf`, `created` FROM `pdfs` AS `pdf` WHERE `pdf`.`id` = 4;
+[0mGET /api/pdf/4 [36m304[0m 5.446 ms - -[0m
+[0mOPTIONS /api/login [32m204[0m 0.839 ms - 0[0m
+MLSA
+Executing (default): SELECT `username`, `userlib`, `password`, `id`, `createdAt`, `updatedAt` FROM `Users` AS `User` WHERE `User`.`username` = 'MLSA';
+[0mOPTIONS /api/ip [32m204[0m 0.082 ms - 0[0m
+[0mOPTIONS /api/faqs [32m204[0m 0.060 ms - 0[0m
+[0mOPTIONS /api/faqs?conditionNation=fr [32m204[0m 0.060 ms - 0[0m
+[0mGET /api/ip [32m200[0m 1.249 ms - 3[0m
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ`;
+Executing (default): SELECT `id`, `question`, `answer`, `productId`, `picture`, `pdfId`, `nation`, `created` FROM `FAQs` AS `FAQ` WHERE `FAQ`.`nation` = 'fr';
+[0mGET /api/faqs [32m200[0m 4.241 ms - 4215[0m
+[0mGET /api/faqs?conditionNation=fr [32m200[0m 5.388 ms - 3753[0m
+[0mPOST /api/login [32m200[0m 78.342 ms - 402[0m

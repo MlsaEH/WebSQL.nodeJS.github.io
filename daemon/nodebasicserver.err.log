@@ -1,0 +1,418 @@
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+Error
+    at Query.run (C:\Mes Projets\NodeJS\WebSQL\node_modules\sequelize\lib\dialects\mssql\query.js:107:25)
+    at C:\Mes Projets\NodeJS\WebSQL\node_modules\sequelize\lib\sequelize.js:314:28
+    at async MSSqlQueryInterface.insert (C:\Mes Projets\NodeJS\WebSQL\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async model.save (C:\Mes Projets\NodeJS\WebSQL\node_modules\sequelize\lib\model.js:2432:35)
+    at async C_OPERAT.create (C:\Mes Projets\NodeJS\WebSQL\node_modules\sequelize\lib\model.js:1344:12) {
+  name: 'SequelizeDatabaseError',
+  parent: RequestError: Cannot insert the value NULL into column 'OPECODE', table 'TestEH.dbo.C_OPERATs'; column does not allow nulls. INSERT fails.
+      at RequestTokenHandler.onErrorMessage (C:\Mes Projets\NodeJS\WebSQL\node_modules\tedious\lib\token\handler.js:368:21)
+      at Readable.<anonymous> (C:\Mes Projets\NodeJS\WebSQL\node_modules\tedious\lib\token\token-stream-parser.js:26:33)
+      at Readable.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at next (node:internal/streams/from:98:31)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    code: 'EREQUEST',
+    number: 515,
+    state: 2,
+    class: 16,
+    serverName: 'WINSQL2019\\BDDMLSA',
+    procName: '',
+    lineNumber: 1,
+    sql: 'INSERT INTO [C_OPERATs] ([OPECODE],[createdAt],[updatedAt]) OUTPUT INSERTED.[OPECODE],INSERTED.[OPELIB],INSERTED.[OPEPASS],INSERTED.[createdAt],INSERTED.[updatedAt] VALUES (@0,@1,@2);',
+    parameters: {
+      '0': null,
+      '1': '2023-02-20 09:26:39.593 +00:00',
+      '2': '2023-02-20 09:26:39.593 +00:00'
+    }
+  },
+  original: RequestError: Cannot insert the value NULL into column 'OPECODE', table 'TestEH.dbo.C_OPERATs'; column does not allow nulls. INSERT fails.
+      at RequestTokenHandler.onErrorMessage (C:\Mes Projets\NodeJS\WebSQL\node_modules\tedious\lib\token\handler.js:368:21)
+      at Readable.<anonymous> (C:\Mes Projets\NodeJS\WebSQL\node_modules\tedious\lib\token\token-stream-parser.js:26:33)
+      at Readable.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at next (node:internal/streams/from:98:31)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    code: 'EREQUEST',
+    number: 515,
+    state: 2,
+    class: 16,
+    serverName: 'WINSQL2019\\BDDMLSA',
+    procName: '',
+    lineNumber: 1,
+    sql: 'INSERT INTO [C_OPERATs] ([OPECODE],[createdAt],[updatedAt]) OUTPUT INSERTED.[OPECODE],INSERTED.[OPELIB],INSERTED.[OPEPASS],INSERTED.[createdAt],INSERTED.[updatedAt] VALUES (@0,@1,@2);',
+    parameters: {
+      '0': null,
+      '1': '2023-02-20 09:26:39.593 +00:00',
+      '2': '2023-02-20 09:26:39.593 +00:00'
+    }
+  },
+  sql: 'INSERT INTO [C_OPERATs] ([OPECODE],[createdAt],[updatedAt]) OUTPUT INSERTED.[OPECODE],INSERTED.[OPELIB],INSERTED.[OPEPASS],INSERTED.[createdAt],INSERTED.[updatedAt] VALUES (@0,@1,@2);',
+  parameters: {
+    '0': null,
+    '1': '2023-02-20 09:26:39.593 +00:00',
+    '2': '2023-02-20 09:26:39.593 +00:00'
+  }
+}
+
+Node.js v18.13.0
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+Error
+    at Query.run (C:\Mes Projets\NodeJS\WebSQL\node_modules\sequelize\lib\dialects\mssql\query.js:107:25)
+    at C:\Mes Projets\NodeJS\WebSQL\node_modules\sequelize\lib\sequelize.js:314:28
+    at async MSSqlQueryInterface.insert (C:\Mes Projets\NodeJS\WebSQL\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async model.save (C:\Mes Projets\NodeJS\WebSQL\node_modules\sequelize\lib\model.js:2432:35)
+    at async C_OPERAT.create (C:\Mes Projets\NodeJS\WebSQL\node_modules\sequelize\lib\model.js:1344:12) {
+  name: 'SequelizeDatabaseError',
+  parent: RequestError: Cannot insert the value NULL into column 'OPECODE', table 'TestEH.dbo.C_OPERATs'; column does not allow nulls. INSERT fails.
+      at RequestTokenHandler.onErrorMessage (C:\Mes Projets\NodeJS\WebSQL\node_modules\tedious\lib\token\handler.js:368:21)
+      at Readable.<anonymous> (C:\Mes Projets\NodeJS\WebSQL\node_modules\tedious\lib\token\token-stream-parser.js:26:33)
+      at Readable.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at next (node:internal/streams/from:98:31)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    code: 'EREQUEST',
+    number: 515,
+    state: 2,
+    class: 16,
+    serverName: 'WINSQL2019\\BDDMLSA',
+    procName: '',
+    lineNumber: 1,
+    sql: 'INSERT INTO [C_OPERATs] ([OPECODE],[createdAt],[updatedAt]) OUTPUT INSERTED.[OPECODE],INSERTED.[OPELIB],INSERTED.[OPEPASS],INSERTED.[createdAt],INSERTED.[updatedAt] VALUES (@0,@1,@2);',
+    parameters: {
+      '0': null,
+      '1': '2023-02-20 09:26:41.323 +00:00',
+      '2': '2023-02-20 09:26:41.323 +00:00'
+    }
+  },
+  original: RequestError: Cannot insert the value NULL into column 'OPECODE', table 'TestEH.dbo.C_OPERATs'; column does not allow nulls. INSERT fails.
+      at RequestTokenHandler.onErrorMessage (C:\Mes Projets\NodeJS\WebSQL\node_modules\tedious\lib\token\handler.js:368:21)
+      at Readable.<anonymous> (C:\Mes Projets\NodeJS\WebSQL\node_modules\tedious\lib\token\token-stream-parser.js:26:33)
+      at Readable.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at next (node:internal/streams/from:98:31)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    code: 'EREQUEST',
+    number: 515,
+    state: 2,
+    class: 16,
+    serverName: 'WINSQL2019\\BDDMLSA',
+    procName: '',
+    lineNumber: 1,
+    sql: 'INSERT INTO [C_OPERATs] ([OPECODE],[createdAt],[updatedAt]) OUTPUT INSERTED.[OPECODE],INSERTED.[OPELIB],INSERTED.[OPEPASS],INSERTED.[createdAt],INSERTED.[updatedAt] VALUES (@0,@1,@2);',
+    parameters: {
+      '0': null,
+      '1': '2023-02-20 09:26:41.323 +00:00',
+      '2': '2023-02-20 09:26:41.323 +00:00'
+    }
+  },
+  sql: 'INSERT INTO [C_OPERATs] ([OPECODE],[createdAt],[updatedAt]) OUTPUT INSERTED.[OPECODE],INSERTED.[OPELIB],INSERTED.[OPEPASS],INSERTED.[createdAt],INSERTED.[updatedAt] VALUES (@0,@1,@2);',
+  parameters: {
+    '0': null,
+    '1': '2023-02-20 09:26:41.323 +00:00',
+    '2': '2023-02-20 09:26:41.323 +00:00'
+  }
+}
+
+Node.js v18.13.0
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+Error
+    at Query.run (C:\Mes Projets\NodeJS\WebSQL\node_modules\sequelize\lib\dialects\mssql\query.js:107:25)
+    at C:\Mes Projets\NodeJS\WebSQL\node_modules\sequelize\lib\sequelize.js:314:28
+    at async MSSqlQueryInterface.insert (C:\Mes Projets\NodeJS\WebSQL\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async model.save (C:\Mes Projets\NodeJS\WebSQL\node_modules\sequelize\lib\model.js:2432:35)
+    at async C_OPERAT.create (C:\Mes Projets\NodeJS\WebSQL\node_modules\sequelize\lib\model.js:1344:12) {
+  name: 'SequelizeDatabaseError',
+  parent: RequestError: Cannot insert the value NULL into column 'OPECODE', table 'TestEH.dbo.C_OPERATs'; column does not allow nulls. INSERT fails.
+      at RequestTokenHandler.onErrorMessage (C:\Mes Projets\NodeJS\WebSQL\node_modules\tedious\lib\token\handler.js:368:21)
+      at Readable.<anonymous> (C:\Mes Projets\NodeJS\WebSQL\node_modules\tedious\lib\token\token-stream-parser.js:26:33)
+      at Readable.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at next (node:internal/streams/from:98:31)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    code: 'EREQUEST',
+    number: 515,
+    state: 2,
+    class: 16,
+    serverName: 'WINSQL2019\\BDDMLSA',
+    procName: '',
+    lineNumber: 1,
+    sql: 'INSERT INTO [C_OPERATs] ([OPECODE],[createdAt],[updatedAt]) OUTPUT INSERTED.[OPECODE],INSERTED.[OPELIB],INSERTED.[OPEPASS],INSERTED.[createdAt],INSERTED.[updatedAt] VALUES (@0,@1,@2);',
+    parameters: {
+      '0': null,
+      '1': '2023-02-20 09:26:43.199 +00:00',
+      '2': '2023-02-20 09:26:43.199 +00:00'
+    }
+  },
+  original: RequestError: Cannot insert the value NULL into column 'OPECODE', table 'TestEH.dbo.C_OPERATs'; column does not allow nulls. INSERT fails.
+      at RequestTokenHandler.onErrorMessage (C:\Mes Projets\NodeJS\WebSQL\node_modules\tedious\lib\token\handler.js:368:21)
+      at Readable.<anonymous> (C:\Mes Projets\NodeJS\WebSQL\node_modules\tedious\lib\token\token-stream-parser.js:26:33)
+      at Readable.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at next (node:internal/streams/from:98:31)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    code: 'EREQUEST',
+    number: 515,
+    state: 2,
+    class: 16,
+    serverName: 'WINSQL2019\\BDDMLSA',
+    procName: '',
+    lineNumber: 1,
+    sql: 'INSERT INTO [C_OPERATs] ([OPECODE],[createdAt],[updatedAt]) OUTPUT INSERTED.[OPECODE],INSERTED.[OPELIB],INSERTED.[OPEPASS],INSERTED.[createdAt],INSERTED.[updatedAt] VALUES (@0,@1,@2);',
+    parameters: {
+      '0': null,
+      '1': '2023-02-20 09:26:43.199 +00:00',
+      '2': '2023-02-20 09:26:43.199 +00:00'
+    }
+  },
+  sql: 'INSERT INTO [C_OPERATs] ([OPECODE],[createdAt],[updatedAt]) OUTPUT INSERTED.[OPECODE],INSERTED.[OPELIB],INSERTED.[OPEPASS],INSERTED.[createdAt],INSERTED.[updatedAt] VALUES (@0,@1,@2);',
+  parameters: {
+    '0': null,
+    '1': '2023-02-20 09:26:43.199 +00:00',
+    '2': '2023-02-20 09:26:43.199 +00:00'
+  }
+}
+
+Node.js v18.13.0
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+Error
+    at Query.run (C:\Mes Projets\NodeJS\WebSQL\node_modules\sequelize\lib\dialects\mssql\query.js:107:25)
+    at C:\Mes Projets\NodeJS\WebSQL\node_modules\sequelize\lib\sequelize.js:314:28
+    at async MSSqlQueryInterface.insert (C:\Mes Projets\NodeJS\WebSQL\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async model.save (C:\Mes Projets\NodeJS\WebSQL\node_modules\sequelize\lib\model.js:2432:35)
+    at async C_OPERAT.create (C:\Mes Projets\NodeJS\WebSQL\node_modules\sequelize\lib\model.js:1344:12) {
+  name: 'SequelizeDatabaseError',
+  parent: RequestError: Cannot insert the value NULL into column 'OPECODE', table 'TestEH.dbo.C_OPERATs'; column does not allow nulls. INSERT fails.
+      at RequestTokenHandler.onErrorMessage (C:\Mes Projets\NodeJS\WebSQL\node_modules\tedious\lib\token\handler.js:368:21)
+      at Readable.<anonymous> (C:\Mes Projets\NodeJS\WebSQL\node_modules\tedious\lib\token\token-stream-parser.js:26:33)
+      at Readable.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at next (node:internal/streams/from:98:31)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    code: 'EREQUEST',
+    number: 515,
+    state: 2,
+    class: 16,
+    serverName: 'WINSQL2019\\BDDMLSA',
+    procName: '',
+    lineNumber: 1,
+    sql: 'INSERT INTO [C_OPERATs] ([OPECODE],[createdAt],[updatedAt]) OUTPUT INSERTED.[OPECODE],INSERTED.[OPELIB],INSERTED.[OPEPASS],INSERTED.[createdAt],INSERTED.[updatedAt] VALUES (@0,@1,@2);',
+    parameters: {
+      '0': null,
+      '1': '2023-02-20 09:27:33.973 +00:00',
+      '2': '2023-02-20 09:27:33.973 +00:00'
+    }
+  },
+  original: RequestError: Cannot insert the value NULL into column 'OPECODE', table 'TestEH.dbo.C_OPERATs'; column does not allow nulls. INSERT fails.
+      at RequestTokenHandler.onErrorMessage (C:\Mes Projets\NodeJS\WebSQL\node_modules\tedious\lib\token\handler.js:368:21)
+      at Readable.<anonymous> (C:\Mes Projets\NodeJS\WebSQL\node_modules\tedious\lib\token\token-stream-parser.js:26:33)
+      at Readable.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at next (node:internal/streams/from:98:31)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    code: 'EREQUEST',
+    number: 515,
+    state: 2,
+    class: 16,
+    serverName: 'WINSQL2019\\BDDMLSA',
+    procName: '',
+    lineNumber: 1,
+    sql: 'INSERT INTO [C_OPERATs] ([OPECODE],[createdAt],[updatedAt]) OUTPUT INSERTED.[OPECODE],INSERTED.[OPELIB],INSERTED.[OPEPASS],INSERTED.[createdAt],INSERTED.[updatedAt] VALUES (@0,@1,@2);',
+    parameters: {
+      '0': null,
+      '1': '2023-02-20 09:27:33.973 +00:00',
+      '2': '2023-02-20 09:27:33.973 +00:00'
+    }
+  },
+  sql: 'INSERT INTO [C_OPERATs] ([OPECODE],[createdAt],[updatedAt]) OUTPUT INSERTED.[OPECODE],INSERTED.[OPELIB],INSERTED.[OPEPASS],INSERTED.[createdAt],INSERTED.[updatedAt] VALUES (@0,@1,@2);',
+  parameters: {
+    '0': null,
+    '1': '2023-02-20 09:27:33.973 +00:00',
+    '2': '2023-02-20 09:27:33.973 +00:00'
+  }
+}
+
+Node.js v18.13.0
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+Error
+    at Query.run (C:\Mes Projets\NodeJS\WebSQL\node_modules\sequelize\lib\dialects\mssql\query.js:107:25)
+    at C:\Mes Projets\NodeJS\WebSQL\node_modules\sequelize\lib\sequelize.js:314:28
+    at async MSSqlQueryInterface.insert (C:\Mes Projets\NodeJS\WebSQL\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async model.save (C:\Mes Projets\NodeJS\WebSQL\node_modules\sequelize\lib\model.js:2432:35)
+    at async C_OPERAT.create (C:\Mes Projets\NodeJS\WebSQL\node_modules\sequelize\lib\model.js:1344:12) {
+  name: 'SequelizeDatabaseError',
+  parent: RequestError: Cannot insert the value NULL into column 'OPECODE', table 'TestEH.dbo.C_OPERATs'; column does not allow nulls. INSERT fails.
+      at RequestTokenHandler.onErrorMessage (C:\Mes Projets\NodeJS\WebSQL\node_modules\tedious\lib\token\handler.js:368:21)
+      at Readable.<anonymous> (C:\Mes Projets\NodeJS\WebSQL\node_modules\tedious\lib\token\token-stream-parser.js:26:33)
+      at Readable.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at next (node:internal/streams/from:98:31)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    code: 'EREQUEST',
+    number: 515,
+    state: 2,
+    class: 16,
+    serverName: 'WINSQL2019\\BDDMLSA',
+    procName: '',
+    lineNumber: 1,
+    sql: 'INSERT INTO [C_OPERATs] ([OPECODE],[createdAt],[updatedAt]) OUTPUT INSERTED.[OPECODE],INSERTED.[OPELIB],INSERTED.[OPEPASS],INSERTED.[createdAt],INSERTED.[updatedAt] VALUES (@0,@1,@2);',
+    parameters: {
+      '0': null,
+      '1': '2023-02-20 09:27:35.568 +00:00',
+      '2': '2023-02-20 09:27:35.568 +00:00'
+    }
+  },
+  original: RequestError: Cannot insert the value NULL into column 'OPECODE', table 'TestEH.dbo.C_OPERATs'; column does not allow nulls. INSERT fails.
+      at RequestTokenHandler.onErrorMessage (C:\Mes Projets\NodeJS\WebSQL\node_modules\tedious\lib\token\handler.js:368:21)
+      at Readable.<anonymous> (C:\Mes Projets\NodeJS\WebSQL\node_modules\tedious\lib\token\token-stream-parser.js:26:33)
+      at Readable.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at next (node:internal/streams/from:98:31)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    code: 'EREQUEST',
+    number: 515,
+    state: 2,
+    class: 16,
+    serverName: 'WINSQL2019\\BDDMLSA',
+    procName: '',
+    lineNumber: 1,
+    sql: 'INSERT INTO [C_OPERATs] ([OPECODE],[createdAt],[updatedAt]) OUTPUT INSERTED.[OPECODE],INSERTED.[OPELIB],INSERTED.[OPEPASS],INSERTED.[createdAt],INSERTED.[updatedAt] VALUES (@0,@1,@2);',
+    parameters: {
+      '0': null,
+      '1': '2023-02-20 09:27:35.568 +00:00',
+      '2': '2023-02-20 09:27:35.568 +00:00'
+    }
+  },
+  sql: 'INSERT INTO [C_OPERATs] ([OPECODE],[createdAt],[updatedAt]) OUTPUT INSERTED.[OPECODE],INSERTED.[OPELIB],INSERTED.[OPEPASS],INSERTED.[createdAt],INSERTED.[updatedAt] VALUES (@0,@1,@2);',
+  parameters: {
+    '0': null,
+    '1': '2023-02-20 09:27:35.568 +00:00',
+    '2': '2023-02-20 09:27:35.568 +00:00'
+  }
+}
+
+Node.js v18.13.0
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+Error
+    at Query.run (C:\Mes Projets\NodeJS\WebSQL\node_modules\sequelize\lib\dialects\mssql\query.js:107:25)
+    at C:\Mes Projets\NodeJS\WebSQL\node_modules\sequelize\lib\sequelize.js:314:28
+    at async MSSqlQueryInterface.insert (C:\Mes Projets\NodeJS\WebSQL\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async model.save (C:\Mes Projets\NodeJS\WebSQL\node_modules\sequelize\lib\model.js:2432:35)
+    at async C_OPERAT.create (C:\Mes Projets\NodeJS\WebSQL\node_modules\sequelize\lib\model.js:1344:12) {
+  name: 'SequelizeDatabaseError',
+  parent: RequestError: Cannot insert the value NULL into column 'OPECODE', table 'TestEH.dbo.C_OPERATs'; column does not allow nulls. INSERT fails.
+      at RequestTokenHandler.onErrorMessage (C:\Mes Projets\NodeJS\WebSQL\node_modules\tedious\lib\token\handler.js:368:21)
+      at Readable.<anonymous> (C:\Mes Projets\NodeJS\WebSQL\node_modules\tedious\lib\token\token-stream-parser.js:26:33)
+      at Readable.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at next (node:internal/streams/from:98:31)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    code: 'EREQUEST',
+    number: 515,
+    state: 2,
+    class: 16,
+    serverName: 'WINSQL2019\\BDDMLSA',
+    procName: '',
+    lineNumber: 1,
+    sql: 'INSERT INTO [C_OPERATs] ([OPECODE],[createdAt],[updatedAt]) OUTPUT INSERTED.[OPECODE],INSERTED.[OPELIB],INSERTED.[OPEPASS],INSERTED.[createdAt],INSERTED.[updatedAt] VALUES (@0,@1,@2);',
+    parameters: {
+      '0': null,
+      '1': '2023-02-20 09:27:37.423 +00:00',
+      '2': '2023-02-20 09:27:37.423 +00:00'
+    }
+  },
+  original: RequestError: Cannot insert the value NULL into column 'OPECODE', table 'TestEH.dbo.C_OPERATs'; column does not allow nulls. INSERT fails.
+      at RequestTokenHandler.onErrorMessage (C:\Mes Projets\NodeJS\WebSQL\node_modules\tedious\lib\token\handler.js:368:21)
+      at Readable.<anonymous> (C:\Mes Projets\NodeJS\WebSQL\node_modules\tedious\lib\token\token-stream-parser.js:26:33)
+      at Readable.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+      at readableAddChunk (node:internal/streams/readable:297:9)
+      at Readable.push (node:internal/streams/readable:234:10)
+      at next (node:internal/streams/from:98:31)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    code: 'EREQUEST',
+    number: 515,
+    state: 2,
+    class: 16,
+    serverName: 'WINSQL2019\\BDDMLSA',
+    procName: '',
+    lineNumber: 1,
+    sql: 'INSERT INTO [C_OPERATs] ([OPECODE],[createdAt],[updatedAt]) OUTPUT INSERTED.[OPECODE],INSERTED.[OPELIB],INSERTED.[OPEPASS],INSERTED.[createdAt],INSERTED.[updatedAt] VALUES (@0,@1,@2);',
+    parameters: {
+      '0': null,
+      '1': '2023-02-20 09:27:37.423 +00:00',
+      '2': '2023-02-20 09:27:37.423 +00:00'
+    }
+  },
+  sql: 'INSERT INTO [C_OPERATs] ([OPECODE],[createdAt],[updatedAt]) OUTPUT INSERTED.[OPECODE],INSERTED.[OPELIB],INSERTED.[OPEPASS],INSERTED.[createdAt],INSERTED.[updatedAt] VALUES (@0,@1,@2);',
+  parameters: {
+    '0': null,
+    '1': '2023-02-20 09:27:37.423 +00:00',
+    '2': '2023-02-20 09:27:37.423 +00:00'
+  }
+}
+
+Node.js v18.13.0
+SyntaxError: Unexpected token - in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Mes Projets\NodeJS\WebSQL\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\Mes Projets\NodeJS\WebSQL\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\Mes Projets\NodeJS\WebSQL\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\Mes Projets\NodeJS\WebSQL\node_modules\raw-body\index.js:231:16)
+    at done (C:\Mes Projets\NodeJS\WebSQL\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Mes Projets\NodeJS\WebSQL\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+SyntaxError: Unexpected token - in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Mes Projets\NodeJS\WebSQL\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\Mes Projets\NodeJS\WebSQL\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\Mes Projets\NodeJS\WebSQL\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\Mes Projets\NodeJS\WebSQL\node_modules\raw-body\index.js:231:16)
+    at done (C:\Mes Projets\NodeJS\WebSQL\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Mes Projets\NodeJS\WebSQL\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)

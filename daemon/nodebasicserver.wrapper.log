@@ -1,0 +1,136 @@
+2023-02-20 10:26:34 - Starting C:\MLSA\Dev\JS\NodeJS\node.exe  --harmony "C:\Mes Projets\NodeJS\WebSQL\node_modules\node-windows\lib\wrapper.js" --file "C:\Mes Projets\NodeJS\WebSQL\app.js" --scriptoptions= --log "nodeBasicServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-02-20 10:26:34 - Started 21380
+2023-02-20 10:27:33 - Starting C:\MLSA\Dev\JS\NodeJS\node.exe  --harmony "C:\Mes Projets\NodeJS\WebSQL\node_modules\node-windows\lib\wrapper.js" --file "C:\Mes Projets\NodeJS\WebSQL\app.js" --scriptoptions= --log "nodeBasicServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-02-20 10:27:33 - Started 18592
+2023-03-01 18:01:19 - Starting C:\MLSA\Dev\JS\NodeJS\node.exe  --harmony "C:\Mes Projets\NodeJS\WebSQL\node_modules\node-windows\lib\wrapper.js" --file "C:\Mes Projets\NodeJS\WebSQL\app.js" --scriptoptions= --log "nodeBasicServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-03-01 18:01:19 - Started 8044
+2023-03-01 18:01:55 - Stopping nodebasicserver.exe
+2023-03-01 18:01:55 - ProcessKill 8044
+2023-03-01 18:01:55 - Shutdown exception
+Message:Un arrêt système est en cours.
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2023-03-02 08:36:22 - Starting C:\MLSA\Dev\JS\NodeJS\node.exe  --harmony "C:\Mes Projets\NodeJS\WebSQL\node_modules\node-windows\lib\wrapper.js" --file "C:\Mes Projets\NodeJS\WebSQL\app.js" --scriptoptions= --log "nodeBasicServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-03-02 08:36:22 - Started 8032
+2023-03-08 08:32:18 - Stopping nodebasicserver.exe
+2023-03-08 08:32:18 - ProcessKill 8032
+2023-03-08 08:32:18 - Shutdown exception
+Message:Classe non enregistrée
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2023-03-08 08:32:55 - Starting C:\MLSA\Dev\JS\NodeJS\node.exe  --harmony "C:\Mes Projets\NodeJS\WebSQL\node_modules\node-windows\lib\wrapper.js" --file "C:\Mes Projets\NodeJS\WebSQL\app.js" --scriptoptions= --log "nodeBasicServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-03-08 08:32:55 - Started 7792
+2023-03-15 16:31:17 - Stopping nodebasicserver.exe
+2023-03-15 16:31:17 - ProcessKill 7792
+2023-03-15 16:31:18 - Shutdown exception
+Message:Classe non enregistrée
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2023-03-15 16:31:56 - Starting C:\MLSA\Dev\JS\NodeJS\node.exe  --harmony "C:\Mes Projets\NodeJS\WebSQL\node_modules\node-windows\lib\wrapper.js" --file "C:\Mes Projets\NodeJS\WebSQL\app.js" --scriptoptions= --log "nodeBasicServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-03-15 16:31:56 - Started 8756
+2023-03-16 15:42:39 - Stopping nodebasicserver.exe
+2023-03-16 15:42:39 - ProcessKill 8756
+2023-03-16 15:42:39 - Shutdown exception
+Message:Classe non enregistrée
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2023-03-16 15:48:46 - Starting C:\MLSA\Dev\JS\NodeJS\node.exe  --harmony "C:\Mes Projets\NodeJS\WebSQL\node_modules\node-windows\lib\wrapper.js" --file "C:\Mes Projets\NodeJS\WebSQL\app.js" --scriptoptions= --log "nodeBasicServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-03-16 15:48:46 - Started 6364
+2023-03-17 16:59:14 - Stopping nodebasicserver.exe
+2023-03-17 16:59:14 - ProcessKill 6364
+2023-03-17 16:59:14 - Shutdown exception
+Message:Classe non enregistrée
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2023-03-17 16:59:48 - Starting C:\MLSA\Dev\JS\NodeJS\node.exe  --harmony "C:\Mes Projets\NodeJS\WebSQL\node_modules\node-windows\lib\wrapper.js" --file "C:\Mes Projets\NodeJS\WebSQL\app.js" --scriptoptions= --log "nodeBasicServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-03-17 16:59:48 - Started 7092
+2023-03-17 16:59:50 - Stopping nodebasicserver.exe
+2023-03-17 16:59:50 - ProcessKill 7092
+2023-03-17 16:59:50 - Shutdown exception
+Message:Classe non enregistrée
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2023-03-20 08:33:39 - Starting C:\MLSA\Dev\JS\NodeJS\node.exe  --harmony "C:\Mes Projets\NodeJS\WebSQL\node_modules\node-windows\lib\wrapper.js" --file "C:\Mes Projets\NodeJS\WebSQL\app.js" --scriptoptions= --log "nodeBasicServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-03-20 08:33:39 - Started 7436
+2023-03-21 10:52:29 - Stopping nodebasicserver.exe
+2023-03-21 10:52:29 - ProcessKill 7436
+2023-03-21 10:52:29 - Shutdown exception
+Message:Classe non enregistrée
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2023-03-21 10:53:03 - Starting C:\MLSA\Dev\JS\NodeJS\node.exe  --harmony "C:\Mes Projets\NodeJS\WebSQL\node_modules\node-windows\lib\wrapper.js" --file "C:\Mes Projets\NodeJS\WebSQL\app.js" --scriptoptions= --log "nodeBasicServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-03-21 10:53:03 - Started 7100
+2023-03-22 09:49:49 - Starting C:\MLSA\Dev\JS\NodeJS\node.exe  --harmony "C:\Mes Projets\NodeJS\WebSQL\node_modules\node-windows\lib\wrapper.js" --file "C:\Mes Projets\NodeJS\WebSQL\app.js" --scriptoptions= --log "nodeBasicServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-03-22 09:49:49 - Started 7216
+2023-03-30 15:01:26 - Stopping nodebasicserver.exe
+2023-03-30 15:01:26 - ProcessKill 7216
+2023-03-30 15:01:26 - Shutdown exception
+Message:Classe non enregistrée
+
+Stacktrace:   à System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   à System.Management.ManagementScope.InitializeGuts(Object o)
+   à System.Management.ManagementScope.Initialize()
+   à System.Management.ManagementObjectSearcher.Initialize()
+   à System.Management.ManagementObjectSearcher.Get()
+   à winsw.WrapperService.GetChildPids(Int32 pid)
+   à winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   à winsw.WrapperService.StopIt()
+   à winsw.WrapperService.OnShutdown()
+2023-03-30 15:02:01 - Starting C:\MLSA\Dev\JS\NodeJS\node.exe  --harmony "C:\Mes Projets\NodeJS\WebSQL\node_modules\node-windows\lib\wrapper.js" --file "C:\Mes Projets\NodeJS\WebSQL\app.js" --scriptoptions= --log "nodeBasicServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-03-30 15:02:01 - Started 7360
