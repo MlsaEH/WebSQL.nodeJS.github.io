@@ -7,6 +7,8 @@ module.exports = (app) => {
   app.post('/api/login', (req, res) => { 
     console.log(req.body.username);
     User.findOne({ where: { username: req.body.username } }).then(user => {
+        console.log("user:");
+        console.log(user);
         if (!user){
             const message = `L'utilisateur n'existe pas`;
             return res.status(404).json({ message})

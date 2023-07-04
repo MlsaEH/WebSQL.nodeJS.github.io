@@ -22,11 +22,11 @@ module.exports = (sequelize, DataTypes) => {
     ,picture: {
       type: DataTypes.STRING,
       allowNull: true
-    } 
-    ,pdfId: {
-      type: DataTypes.INTEGER,
-      allowNull: true
     }
+    ,pdf: {
+      type: DataTypes.STRING,
+      allowNull: true
+    } 
     ,nation: {
       type: DataTypes.STRING,
       allowNull: true
